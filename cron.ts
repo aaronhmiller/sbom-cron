@@ -1,3 +1,3 @@
-Deno.cron("Sample cron job", "*/10 * * * *", () => {
-  console.log("This will run every 10 minutes");
+Deno.cron("Sample cron job", "*/5 * * * *", () => {
+  console.log("This will run every 5 minutes");
 });
