@@ -6,6 +6,6 @@
 //| | | | |
 //* * * * * command to be executed
 
-Deno.cron("Sample cron job", "0 */2 * * *", () => {
-  console.log("This will run twelve times a day");
+Deno.cron("Sample cron job", "0 */4 * * *", () => {
+  console.log("This will run six times a day");
 });
